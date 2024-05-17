@@ -14,10 +14,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 class MemberRepositoryTest {
 
     @Autowired
-    MemberRepository memberRepository;
+    private MemberRepository memberRepository;
 
-    @Autowired
-    TeamRepository TeamRepository;
     @Autowired
     private TeamRepository teamRepository;
 
