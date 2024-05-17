@@ -37,11 +37,11 @@ public class Member {
     private Team team;
 
     @Builder
-    public Member(String name, MemberRole role, LocalDate birthday, LocalDate workStartDate, Team team) {
+    public Member(String name, Team team, MemberRole role, LocalDate birthday, LocalDate workStartDate) {
         this.name = name;
+        this.team = team;
         this.role = role;
         this.birthday = birthday;
         this.workStartDate = workStartDate;
-        this.team = team;
     }
 }

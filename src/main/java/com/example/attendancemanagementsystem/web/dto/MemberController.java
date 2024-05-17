@@ -1,7 +1,7 @@
 package com.example.attendancemanagementsystem.web.dto;
 
-import com.example.attendancemanagementsystem.domain.Member;
 import com.example.attendancemanagementsystem.service.MemberService;
+import com.example.attendancemanagementsystem.web.dto.response.MemberResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,7 +26,7 @@ public class MemberController {
 
     // 응답객체 분리 필요한 정보만 반환하기
     @GetMapping("/member")
-    public List<Member> findAllMember() {
+    public List<MemberResponse> findAllMember() {
         return memberService.findAllMember();
     }
 }
