@@ -1,7 +1,7 @@
 package com.example.attendancemanagementsystem.service;
 
 import com.example.attendancemanagementsystem.domain.TeamRepository;
-import com.example.attendancemanagementsystem.web.dto.TeamRegisterRequest;
+import com.example.attendancemanagementsystem.web.dto.request.TeamRegisterRequest;
 import com.example.attendancemanagementsystem.web.dto.response.TeamResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

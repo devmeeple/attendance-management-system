@@ -1,6 +1,7 @@
 package com.example.attendancemanagementsystem.web.dto;
 
 import com.example.attendancemanagementsystem.domain.MemberRole;
+import com.example.attendancemanagementsystem.web.dto.request.MemberJoinRequest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

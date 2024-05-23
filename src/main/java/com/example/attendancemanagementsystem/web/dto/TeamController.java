@@ -1,6 +1,7 @@
 package com.example.attendancemanagementsystem.web.dto;
 
 import com.example.attendancemanagementsystem.service.TeamService;
+import com.example.attendancemanagementsystem.web.dto.request.TeamRegisterRequest;
 import com.example.attendancemanagementsystem.web.dto.response.TeamResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

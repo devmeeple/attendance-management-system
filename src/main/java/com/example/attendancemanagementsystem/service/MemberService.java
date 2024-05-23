@@ -1,7 +1,7 @@
 package com.example.attendancemanagementsystem.service;
 
 import com.example.attendancemanagementsystem.domain.MemberRepository;
-import com.example.attendancemanagementsystem.web.dto.MemberJoinRequest;
+import com.example.attendancemanagementsystem.web.dto.request.MemberJoinRequest;
 import com.example.attendancemanagementsystem.web.dto.response.MemberResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

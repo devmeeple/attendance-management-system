@@ -1,6 +1,7 @@
 package com.example.attendancemanagementsystem.web.dto;
 
 import com.example.attendancemanagementsystem.service.MemberService;
+import com.example.attendancemanagementsystem.web.dto.request.MemberJoinRequest;
 import com.example.attendancemanagementsystem.web.dto.response.MemberResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

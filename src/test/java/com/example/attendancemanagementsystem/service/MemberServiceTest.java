@@ -3,7 +3,7 @@ package com.example.attendancemanagementsystem.service;
 import com.example.attendancemanagementsystem.domain.Member;
 import com.example.attendancemanagementsystem.domain.MemberRepository;
 import com.example.attendancemanagementsystem.domain.MemberRole;
-import com.example.attendancemanagementsystem.web.dto.MemberJoinRequest;
+import com.example.attendancemanagementsystem.web.dto.request.MemberJoinRequest;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

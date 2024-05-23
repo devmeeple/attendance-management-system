@@ -1,4 +1,4 @@
-package com.example.attendancemanagementsystem.web.dto;
+package com.example.attendancemanagementsystem.web.dto.request;
 
 import com.example.attendancemanagementsystem.domain.Team;
 import lombok.Builder;
