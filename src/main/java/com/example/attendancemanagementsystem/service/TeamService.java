@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @RequiredArgsConstructor
+@Transactional(readOnly = true)
 @Service
 public class TeamService {
 
@@ -20,7 +21,6 @@ public class TeamService {
         teamRepository.save(request.toEntity());
     }
 
-    @Transactional
     public List<TeamResponse> findAllTeam() {
         return teamRepository.findAll().stream()
                 .map(TeamResponse::from)
